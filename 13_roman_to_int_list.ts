@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/roman-to-integer/
 
-function romanToInt(s: string): number {
+function romanToIntList(s: string): number {
   const roman: string[] = [ 'I', 'V', 'X', 'L', 'C', 'D', 'M' ]
   const romanDigits: number[] = [ 1, 5, 10, 50, 100, 500, 1000 ]
 
@@ -34,6 +34,6 @@ function romanToInt(s: string): number {
   return sum
 };
 
-console.log(romanToInt('III'))
-console.log(romanToInt('LVIII'))
-console.log(romanToInt('MCMXCIV'))
+console.log(romanToIntList('III'))
+console.log(romanToIntList('LVIII'))
+console.log(romanToIntList('MCMXCIV'))
