@@ -31,7 +31,8 @@ hammDistance() {
         ((count++))
       fi 
     done
+
+    echo "Difference: $count"
 }
 
 hammDistance GAGCCTACTAACGGGAT CATCGTAATGACGGCCT
-echo "Difference: $count"
